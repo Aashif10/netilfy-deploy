@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;    
+
+
+}
+img{
+    position: relative;
+    bottom: 10%;
+    width: 100px;
+    height: 100px;
+
+}
+.logo{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 171, 243);
+}
+.navbar h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.input-field {
+/* position: relative; */
+/* font-size: 50px; */
+    
+}
+.input-field input{
+    position: relative;
+    top:20px;   
+    right: 25%;
+
+}
+.input-field input{
+    font-size: 20px;
+    width: 230px;
+    height: 35px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.input-field button{
+    position: relative;
+    top: 20%;
+    cursor: pointer;
+    right: 40%;
+    font-size: 20px;
+    color:rgb(84, 143, 224);
+    text-decoration: none;
+    background-color: white;
+    /* border: 2px solid white; */
+    border: none;
+    
+}
+
+::placeholder{
+    position: relative;
+    left: 10%;
+    font-size: 15x;
+    color: gray;
+    font-weight: bold;
+}
+#w{
+    color: white;
+}
+.wheather-container{
+    background:no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+.wheather-container h2{
+  line-height: 80px;
+}
+/* #div{
+    background: url("https://wallpapers.com/images/hd/clouds-4k-fecuaqx21wbchecx.jpg");    
+    width: 1396px;
+    height: 500px;
+} */
+section{
+    width: 100%;
+    height: calc(100vh - 200px);    
+background-image: url("https://i.pinimg.com/736x/7e/72/98/7e7298aa365d776e7ca34f11c9298ee9.jpg");
+    /* background-image: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+footer{
+    background-color: rgb(13, 152, 216);
+    display: flex;
+   text-align: center;
+   justify-content:center;
+   align-items: center;
+  height: 105px;
+}
